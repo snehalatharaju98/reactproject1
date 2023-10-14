@@ -4,7 +4,8 @@ import MyContext from './context'
 function HeaderComponent() {
     const {selectedUser} = useContext(MyContext)
   return (
-    <div>selectedUser {selectedUser}</div>
+    <div className='header'>selectedUser {selectedUser}</div>
+
   )
 }
 
